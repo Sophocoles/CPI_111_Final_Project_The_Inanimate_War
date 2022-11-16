@@ -19,12 +19,12 @@ face = RIGHT;
 movement = MOVE;
 weapon_sprite = spr_sword;
 
-sprite[RIGHT, MOVE] = spr_fisk_right;
-sprite[UP, MOVE] = spr_fisk_up;
-sprite[LEFT, MOVE] = spr_fisk_left;
-sprite[DOWN, MOVE] = spr_fisk_down;
+sprite[RIGHT, MOVE] = spr_player_right;
+sprite[UP, MOVE] = spr_player_up;
+sprite[LEFT, MOVE] = spr_player_left;
+sprite[DOWN, MOVE] = spr_player_down;
 
-sprite[RIGHT, ATTACK] = spr_fisk_attack_right;
-sprite[UP, ATTACK] = spr_fisk_attack_up;
-sprite[LEFT, ATTACK] = spr_fisk_attack_left;
-sprite[DOWN, ATTACK] = spr_fisk_attack_down;
+sprite[RIGHT, ATTACK] = spr_player_attack_right;
+sprite[UP, ATTACK] = spr_player_attack_up;
+sprite[LEFT, ATTACK] = spr_player_attack_left;
+sprite[DOWN, ATTACK] = spr_player_attack_down;
