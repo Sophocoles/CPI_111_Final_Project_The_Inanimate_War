@@ -1,5 +1,6 @@
 /// @description Execute state
 
+
 depth = -y;
 script_execute(state)
 sprite_index = sprite[face, movement]

@@ -2,7 +2,7 @@
 
 if(other.id != creator)
 {
-	other.healthPoints -= 1;
+	other.healthPoints -= 10;
 	
 	// Create knockback variables
 	var dir = point_direction(0, 0, phy_speed_x, phy_speed_y);

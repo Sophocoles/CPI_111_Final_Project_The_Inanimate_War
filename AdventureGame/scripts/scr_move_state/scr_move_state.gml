@@ -47,8 +47,9 @@ function scr_move_state(){
 	if(obj_input.spell_key)
 	{
 		var projectile = instance_create_layer(x, y, "Instances", obj_projectile)
-		var xforce = lengthdir_x(20, face * 90);
-		var yforce = lengthdir_y(20, face * 90);
+		fac = point_direction(x,y,mouse_x,mouse_y);
+		var xforce = lengthdir_x(20, fac);
+		var yforce = lengthdir_y(20, fac);
 		projectile.creator = id;
 		
 		with(projectile)
