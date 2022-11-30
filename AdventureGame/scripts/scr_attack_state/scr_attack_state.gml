@@ -8,13 +8,13 @@ function scr_attack_state(){
 	{
 		var attack_animation = instance_create_layer(x, y, "Instances", obj_weapon_animation);
 		attack_animation.sprite_index = weapon_sprite;
-		attack_animation.dir = point_direction(x,y,mouse_x,mouse_y);
-		attack_animation.image_angle = attack_animation.dir
-		//attack_animation.dir = face * 90;
-		//attack_animation.image_angle = (face * 90) + 45;
+		//attack_animation.dir = point_direction(x,y,mouse_x,mouse_y);
+		//attack_animation.image_angle = attack_animation.dir
+		attack_animation.dir = face * 90;
+		attack_animation.image_angle = (face * 90) + 45;
 	}
 	
-	if(scr_animation_hit_frame(3))
+	if(scr_animation_hit_frame(1))
 	{
 		var xx = 0;
 		var yy = 0;

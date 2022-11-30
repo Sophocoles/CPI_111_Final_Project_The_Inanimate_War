@@ -4,8 +4,8 @@
 
 if(instance_exists(obj_spider))
 {
-	x = obj_spider.x;
-	y = obj_spider.y;
+	x += (obj_spider.x - x) * .1;
+	y += (obj_spider.y - y) * .1;
 }
 // Move 10% towaards the player
 else if (instance_exists(obj_player))

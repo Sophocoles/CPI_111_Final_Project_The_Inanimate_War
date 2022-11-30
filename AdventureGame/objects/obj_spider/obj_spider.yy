@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_spider",
   "spriteId": {
-    "name": "spr_bossholder",
-    "path": "sprites/spr_bossholder/spr_bossholder.yy",
+    "name": "spr_spider_stand_down",
+    "path": "sprites/spr_spider_stand_down/spr_spider_stand_down.yy",
   },
   "solid": false,
   "visible": true,
@@ -19,7 +19,7 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
-  "physicsDensity": 0.4,
+  "physicsDensity": 1.0,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 5.0,
   "physicsAngularDamping": 0.1,
@@ -27,10 +27,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":2.0,"y":12.0,},
-    {"x":22.0,"y":12.0,},
-    {"x":22.0,"y":24.0,},
-    {"x":2.0,"y":24.0,},
+    {"x":9.0,"y":13.0,},
+    {"x":54.0,"y":13.0,},
+    {"x":54.0,"y":50.0,},
+    {"x":9.0,"y":50.0,},
   ],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
@@ -47,7 +47,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"yaxis","varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"state","varType":4,"value":"scr_enemy_idle_state","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attack_delay","varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"knockback","varType":0,"value":"120","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"knockback","varType":0,"value":"20","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"moveSpeed","path":"objects/obj_lifeform_parent/obj_lifeform_parent.yy",},"objectId":{"name":"obj_lifeform_parent","path":"objects/obj_lifeform_parent/obj_lifeform_parent.yy",},"value":"1.3",},
