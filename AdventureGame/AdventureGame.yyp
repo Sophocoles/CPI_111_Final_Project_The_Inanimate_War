@@ -91,7 +91,6 @@
     {"id":{"name":"spr_player_use_down","path":"sprites/spr_player_use_down/spr_player_use_down.yy",},"order":4,},
     {"id":{"name":"spr_player_attack_left","path":"sprites/spr_player_attack_left/spr_player_attack_left.yy",},"order":12,},
     {"id":{"name":"obj_enemy_minion","path":"objects/obj_enemy_minion/obj_enemy_minion.yy",},"order":5,},
-    {"id":{"name":"spr_bossholder","path":"sprites/spr_bossholder/spr_bossholder.yy",},"order":8,},
     {"id":{"name":"rm_one4","path":"rooms/rm_one4/rm_one4.yy",},"order":3,},
     {"id":{"name":"rm_one","path":"rooms/rm_one/rm_one.yy",},"order":0,},
   ],
