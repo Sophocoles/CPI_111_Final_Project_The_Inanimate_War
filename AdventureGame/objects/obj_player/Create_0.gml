@@ -8,6 +8,9 @@ instance_destroy();
 // call parent's create method as well
 event_inherited();
 phy_bullet = true;
+rm_kill_count = 0
+rm_spider_kill_count = 0
+has_key = false;
 moveSpeed = 2;
 hSpeed = 0;
 vSpeed = 0;

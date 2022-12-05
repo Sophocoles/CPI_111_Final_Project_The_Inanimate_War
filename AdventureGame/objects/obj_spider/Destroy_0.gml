@@ -7,3 +7,6 @@ audio_play_sound(snd_enemy_die, 5, false);
 // Drop a health pack
 if (scr_chance(.5))
 	instance_create_layer(x + random_range(-12, 12), y + random_range(-12, 12), "Instances", obj_health);
+
+
+obj_player.rm_spider_kill_count += 1

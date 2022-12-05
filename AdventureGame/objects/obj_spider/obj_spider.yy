@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_spider",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_spider_stand_down",
+    "path": "sprites/spr_spider_stand_down/spr_spider_stand_down.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
