@@ -111,8 +111,10 @@ if (!instance_exists(obj_player))
 			//If both objectives complete, leave
 			if(obj_player.has_key == true)
 				{
+					//room_restart();
+					//instance_destroy(obj_key);
 					instance_destroy(obj_barrier_objectives);
-					objective = "Find the door and leave"
+					objective = "Find the trophy"
 				}
 	}
 		

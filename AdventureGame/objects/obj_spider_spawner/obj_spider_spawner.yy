@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_spider_spawner",
   "spriteId": {
-    "name": "spr_objective",
-    "path": "sprites/spr_objective/spr_objective.yy",
+    "name": "spr_spider_spawner",
+    "path": "sprites/spr_spider_spawner/spr_spider_spawner.yy",
   },
   "solid": false,
   "visible": false,

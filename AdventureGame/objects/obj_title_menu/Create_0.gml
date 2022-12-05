@@ -12,6 +12,8 @@ option[1] = "Quit Game"
 op_length = array_length(option);
 
 sprite_set_speed(sprite_index, 5, spritespeed_framespersecond);
+audio_play_sound(snd_main_menu, 5, false);
+
 
 
 

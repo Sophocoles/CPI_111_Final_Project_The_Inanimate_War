@@ -8,8 +8,8 @@ function scr_get_input(){
 	swap_key = keyboard_check_pressed(ord("E"))
 	pause_key = keyboard_check_pressed(vk_escape)
 	enter_key = keyboard_check_pressed(vk_enter)
-	spell_key = keyboard_check_pressed(ord("K"))
-	attack_key = keyboard_check_pressed(ord("J"))
-	dash_key = keyboard_check_pressed(ord("L"))
+	spell_key = keyboard_check_pressed(ord("K")) || mouse_check_button_pressed(mb_right)
+	attack_key = keyboard_check_pressed(ord("J")) || mouse_check_button_pressed(mb_left)
+	dash_key = keyboard_check_pressed(ord("L")) || mouse_check_button_pressed(mb_middle)
 }
 

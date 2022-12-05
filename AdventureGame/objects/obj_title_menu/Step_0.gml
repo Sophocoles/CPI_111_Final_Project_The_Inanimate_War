@@ -25,6 +25,8 @@ switch(pos)
 {//start game
 	case 0:
 		room_goto_next()
+		audio_stop_sound(snd_main_menu);
+		audio_play_sound(snd_combat_01, 5, true);
 		break;
 	
 	//Settings
