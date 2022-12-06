@@ -1,7 +1,12 @@
 /// @description Drop orbs
 //Increase enemy killed count
-obj_player.rm_kill_count += 1
 
+
+
+if(instance_exists(obj_player))
+{
+	obj_player.rm_kill_count += 1
+}
 
 // Drop an exp orb
 instance_create_layer(x, y, "Instances", obj_expr);

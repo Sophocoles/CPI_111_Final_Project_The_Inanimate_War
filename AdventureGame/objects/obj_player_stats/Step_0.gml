@@ -13,6 +13,14 @@ if(stamina < maxStamina && alarm[0] == -1)
 	alarm[0] = room_speed/2;
 }
 
+if(energy < maxEnergy && alarm[2] == -1)
+{
+	if(room != rm_pause){
+		energy++;
+	}
+	alarm[2] = room_speed/2;
+}
+
 // Pause the game
 if(obj_input.pause_key)
 {

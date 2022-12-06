@@ -12,4 +12,5 @@ function scr_macros(){
 #macro NEW_ROOM 1
 #macro LOAD 2
 #macro IDLE 2
+#macro SPELL_COST 4
 }

@@ -10,6 +10,6 @@ function scr_get_input(){
 	enter_key = keyboard_check_pressed(vk_enter)
 	spell_key = keyboard_check_pressed(ord("K")) || mouse_check_button_pressed(mb_right)
 	attack_key = keyboard_check_pressed(ord("J")) || mouse_check_button_pressed(mb_left)
-	dash_key = keyboard_check_pressed(ord("L")) || mouse_check_button_pressed(mb_middle)
+	dash_key = keyboard_check_pressed(ord("L")) || mouse_check_button_pressed(mb_middle) || keyboard_check_pressed(vk_shift)
 }
 

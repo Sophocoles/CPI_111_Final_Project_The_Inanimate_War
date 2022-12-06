@@ -2,7 +2,7 @@
 
 
 enemies_killed = 0
-enemy_kill_goal = 3
+enemy_kill_goal = 15
 
 spiders_killed = 0
 spider_kill_goal = 3

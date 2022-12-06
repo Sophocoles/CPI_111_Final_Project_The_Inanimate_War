@@ -44,8 +44,11 @@ function scr_move_state(){
 		state = scr_attack_state;
 	}
 	
-	if(obj_input.spell_key)
+	if(obj_input.spell_key && obj_player_stats.energy >= SPELL_COST)
 	{
+		obj_player_stats.energy -= SPELL_COST
+		alarm[2] = room_speed/8;
+		obj_player_stats.alarm[2] = room_speed*2;
 		var projectile = instance_create_layer(x, y, "Instances", obj_projectile)
 		fac = point_direction(x,y,mouse_x,mouse_y);
 		var xforce = lengthdir_x(20, fac);
